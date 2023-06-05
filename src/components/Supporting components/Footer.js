@@ -21,8 +21,8 @@ function Footer() {
 
     const remoteConfig = getRemoteConfig(app);
     console.log(remoteConfig);
-    const [actualAddress, setActualAddress] = useState("-");
-    const [actualTelephoneNumber, setActualTelephoneNumber] = useState("+");
+    const [actualAddress, setActualAddress] = useState("Университетская пл, 1");
+    const [actualTelephoneNumber, setActualTelephoneNumber] = useState("+7 (800) 567-00-99");
 
     useEffect(() => {
         const fetchRemoteConfig = async () => {
